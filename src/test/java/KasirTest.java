@@ -37,7 +37,7 @@ public class KasirTest {
 
     @Test
     public void testDisplayItems() {
-        Item item1 = new Item("Apple", 1.0, 3);
+        Item item1 = new Item("Apple", 1.0, 4);
         Item item2 = new Item("Banana", 0.5, 5);
         cashierService.addItem(item1);
         cashierService.addItem(item2);
